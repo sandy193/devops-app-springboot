@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>devops-app-springboot</groupId>
 	<artifactId>devops-app-springboot</artifactId>
-	<version>yes</version>
+	<version>1.1-SNAPSHOT</version>
 	<name>devops-app-springboot</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
