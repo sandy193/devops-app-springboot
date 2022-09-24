@@ -76,7 +76,7 @@ rtMaven.resolver server: server, releaseRepo: 'libs-release', snapshotRepo: 'lib
 
 rtMaven.deployer server: server, releaseRepo: 'libs-release-local', snapshotRepo: 'libs-snapshot-local'
 
-def buildInfo = rtMaven.run pom: 'pom.xml', goals: 'install release:clean release:perform release:install'
+def buildInfo = rtMaven.run pom: 'pom.xml', goals: 'install'
 
 server.publishBuildInfo buildInfo
 
