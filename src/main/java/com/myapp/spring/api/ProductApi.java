@@ -36,7 +36,7 @@ public class ProductApi {
 		return new ResponseEntity<>(repository.findAll(),HttpStatus.OK);
 	}
 	
-	@GetMapping("/hello")
+	@GetMapping("/sandhya")
     public ResponseEntity<List<Product>> sayHello(){
         return new ResponseEntity<>(repository.findAll(),HttpStatus.OK);
     }
